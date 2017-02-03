@@ -31,4 +31,8 @@ contract MetaCoin {
 	function getBalance(address addr) returns(uint) {
 		return balances[addr];
 	}
+
+	function getHolidays() returns(string) {
+	  return '{"status":200,"holidays":[{"name":"Groundhog Day","date":"2016-02-02","observed":"2016-02-02","public":false},{"name":"Ash Wednesday","date":"2016-02-10","observed":"2016-02-10","public":false},{"name":"Valentines Day","date":"2016-02-14","observed":"2016-02-14","public":false},{"name":"George Washingtons Birthday","date":"2016-02-15","observed":"2016-02-15","public":true}]}';
+	}
 }
