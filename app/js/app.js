@@ -1,5 +1,3 @@
-// var MetaCoin = require("../../contracts/MetaCoin.sol");
-
 var accounts;
 var account;
 

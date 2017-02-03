@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 pragma solidity ^0.4.2;
+=======
+pragma solidity ^0.4.4;
+>>>>>>> aa98f6a54976e78dd9478ff9f5d73fb893b740c6
 
 import "./ConvertLib.sol";
 
