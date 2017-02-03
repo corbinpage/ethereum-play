@@ -21,7 +21,8 @@ button {
   padding: 5px;
 }
 
-h1, h2 {
+h1,
+h2 {
   display: inline-block;
   vertical-align: middle;
   margin-top: 0px;
