@@ -1,1 +1,4 @@
-notes.txt
+testrpc -a
+
+# Instructions to run
+https://github.com/trufflesuite/truffle-init-webpack
