@@ -1,7 +1,5 @@
 pragma solidity ^0.4.3;
 
-import "./ConvertLib.sol";
-
 contract WasHere {
 	mapping (address => string) names;
 	address owner;

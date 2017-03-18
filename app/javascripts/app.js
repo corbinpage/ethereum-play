@@ -82,7 +82,7 @@ window.App = {
       meta = instance;
       console.log("start");
       console.log(account);
-      return meta.getName.call(account, { from: account });
+      return meta.getName2.call(account, { from: account });
     }).then(function(value) {
       // var balance_element = document.getElementById("balance");
       // balance_element.innerHTML = value.valueOf();
@@ -92,6 +92,7 @@ window.App = {
       self.setStatus("Error getting name; see log.");
     });
   },
+
 
   sendCoin: function() {
     var self = this;
