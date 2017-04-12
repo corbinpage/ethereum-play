@@ -13,7 +13,7 @@ contract DataStore {
     return true;
   } 
 
-  function getData(address addr) returns(string) {
+  function getData() returns(string) {
     return data;
   }
 

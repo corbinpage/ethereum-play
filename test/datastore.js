@@ -13,15 +13,11 @@ contract('DataStore', function(accounts) {
   it("should receive and store data", function() {
     let testData = "Testing";
 
-    console.log("test1");
-
     return DataStore.new(testData).then(function(instance) {
-      console.log("test2");
       return instance.getData.call();
-    })
-  // .then(function(data) {
-  //   assert.equal(data, testData, "incorrect data returned");
-  // });
+    }).then(function(data) {
+      assert.equal(data, testData, "incorrect data returned");
+    });
   });
 
   // MetaCoin.new().then(function(instance) {
